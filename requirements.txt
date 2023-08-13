@@ -1,5 +1,3 @@
-requests
-subprocess
-zipfile
-patoolib
-tkinter
+huggingface_hub
+selenium
+flask
