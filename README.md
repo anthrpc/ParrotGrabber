@@ -11,14 +11,13 @@ ParrotGrabber is a Python Flask web application that simplifies the process of b
 
 ## Installation
 
-1. Clone the repository:
-
-   ```git clone https://github.com/anthrpc/ParrotGrabber.git```
+1. Clone the repository: ```git clone https://github.com/anthrpc/ParrotGrabber.git```
    
 2. Install the required packages using pip:
 ```pip install -r requirements.txt```
 
 3. Download and configure the Chrome WebDriver for Selenium if you haven't
+   
 You can download Chrome WebDriver here: https://chromedriver.chromium.org/downloads
 
 # Usage
