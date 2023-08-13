@@ -1,5 +1,4 @@
 requests
-shutil
 subprocess
 zipfile
 patoolib
