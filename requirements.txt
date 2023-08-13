@@ -1,0 +1,6 @@
+requests
+shutil
+subprocess
+zipfile
+patoolib
+tkinter
