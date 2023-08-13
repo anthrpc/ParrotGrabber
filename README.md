@@ -2,6 +2,10 @@
 
 ParrotGrabber is a Python Flask web application that simplifies the process of batch downloading files from the Hugging Face Hub. It allows users to easily specify a repository, whether it's a model or dataset, and then select specific files or file extensions they want to download. This tool is particularly useful when you need to download multiple files from the Hugging Face Hub in one go, which is not directly supported by the official website.
 
+<p align="center">
+  <img src="logo.ico" alt="ParrotGrabber Logo">
+</p>
+
 ## Features
 
 - Download files from Hugging Face Hub repositories.
