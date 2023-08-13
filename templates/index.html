@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hugging Face Downloader</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto p-8">
+        <h1 class="text-3xl font-bold mb-4">Hugging Face Downloader</h1>
+        <form action="/download" method="post" class="space-y-4">
+            <div>
+                <label for="repo_id" class="block font-semibold mb-1">Hugging Face Repo ID:</label>
+                <input type="text" name="repo_id" required class="w-full p-2 border border-gray-300 rounded">
+            </div>
+            
+            <div>
+                <label for="resource_type" class="block font-semibold mb-1">Resource Type:</label>
+                <select name="resource_type" class="w-full p-2 border border-gray-300 rounded">
+                    <option value="model">Model</option>
+                    <option value="dataset">Dataset</option>
+                </select>
+            </div>
+            
+            <div>
+                <label for="folder" class="block font-semibold mb-1">Folder/Model Name:</label>
+                <input type="text" name="folder" class="w-full p-2 border border-gray-300 rounded">
+            </div>
+            
+            <div>
+                <label for="extensions" class="block font-semibold mb-1">File Extensions (comma-separated):</label>
+                <input type="text" name="extensions" required class="w-full p-2 border border-gray-300 rounded">
+            </div>
+            
+            <div>
+                <input type="submit" value="Download" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 cursor-pointer">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
